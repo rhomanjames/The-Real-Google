@@ -1,7 +1,7 @@
 module.exports = {
 
   images: {
-    domains: ["cdn.vox-cdn.com"],
+    domains: ["www.jobalign.com"],
   },
   reactStrictMode: true,
 }
