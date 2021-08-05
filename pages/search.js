@@ -8,7 +8,7 @@ import { API_KEY, CTX_KEY } from "../keys";
 import { useRouter } from "next/router"
 
 
-function search( {results} ) {
+function Search( {results} ) {
     const router = useRouter();
     console.log(results);
     return (
@@ -18,7 +18,7 @@ function search( {results} ) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             {/*Header*/}
-            <header className="flex pl-2 sm:flex-row flex-col border-b-2 border-gray-100">
+            <header className="flex pl-2 sticky sm:flex-row flex-col border-b-2 border-gray-100">
                 <Image 
                 onClick={() => router.back()}
                 className="object-contain md:absolute cursor-pointer"
@@ -70,7 +70,7 @@ function search( {results} ) {
     )
 };
 
-export default search
+export default Search
 
 export async function getServerSideProps(context){
     const useDummyData = false;

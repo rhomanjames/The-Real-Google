@@ -12,7 +12,7 @@ export default function Home() {
   const searchInputRef = useRef(null);
   const router = useRouter()
 
-  const search = e => {
+  const Search = e => {
     e.preventDefault();
     const term = searchInputRef.current.value;
 
@@ -65,8 +65,8 @@ export default function Home() {
         </div>
 
         <div className="mt-7 flex flex-col space-y-2 justify-center sm:flex-row sm:space-y-0 sm:space-x-4 items-center">
-          <button onClick={search} className="btn">Google Search</button>
-          <button onClick={search} className="btn">Surprise Me</button>
+          <button onClick={Search} className="btn">Google Search</button>
+          <button onClick={Search} className="btn">Surprise Me</button>
         </div>
         </form>
       </div>
