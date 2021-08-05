@@ -21,6 +21,7 @@ function Search( {results} ) {
             <header className="flex pl-2 sticky sm:flex-row flex-col border-b-2 border-gray-100">
                 <Image 
                 onClick={() => router.back()}
+                alt="Logo"
                 className="object-contain md:absolute cursor-pointer"
                 src="https://www.jobalign.com/wp-content/uploads/2018/01/google-logo-png-hd-11.png" 
                 height={48} 

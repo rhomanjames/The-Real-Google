@@ -57,6 +57,7 @@ export default function Home() {
             src="https://www.jobalign.com/wp-content/uploads/2018/01/google-logo-png-hd-11.png" 
             height={95} 
             width={284}
+            alt="logo"
           />
         <div className="flex w-full max-w-md mt-5 hover:shadow-lg focus-within:shadow-lg rounded-full border border-gray-200 p-3 items-center sm:max-w-md lg:max-w-xl">
           <SearchIcon className="h-5 text-gray-500 mr-3" />

@@ -1,9 +1,13 @@
+import Image from 'next/image'
+
 function Avatar({ url }) {
     return (
-        <img
-            className="rounded-full h-10 transition cursor-pointer invisible sm:visible hover:scale-110"
+        <Image
+            className="rounded-full h-10 transition cursor-pointer invisible sm:visible "
             loading="lazy"
             src={url}
+            width="25"
+            height="25"
             alt="profile pic" />
     )
 };
