@@ -3,7 +3,6 @@ function Footer() {
     return (
         <footer className="flex w-full  p-3  bottom-0 bg-gray-100 absolute flex-col justify-center align-center text-gray-500 text-center items-center text-sm">
             <div className="flex w-full lg:invisible justify-center pb-3 lg:pb-0">
-                <HeartIcon className="h-5 mr-2 text-green-600" />
                 <h1 className="link">Carbon Neutral Since 2007</h1>
             </div>
             <div className="flex w-full flex-col text-center sm:flex-row justify-evenly">
