@@ -1,4 +1,3 @@
-import {HeartIcon} from "@heroicons/react/solid"
 
 function Footer() {
     return (
@@ -14,7 +13,6 @@ function Footer() {
                     <p className="link">How Search works</p>
                 </div>
                 <div className="flex invisible lg:visible justify-center">
-                    <HeartIcon className="h-5 mr-2 text-green-600" />
                     <h1 className="link">Carbon Neutral Since 2007</h1>
                 </div>
                 <div className="flex justify-center space-x-6 ">
