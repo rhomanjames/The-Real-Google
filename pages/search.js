@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from 'next/image';
-import Avatar from "../components/Avatar"
 import Searchresults from "../components/Searchresults"
 import { XIcon, CogIcon, ViewGridIcon, MicrophoneIcon, DotsVerticalIcon, NewspaperIcon, VideoCameraIcon, CameraIcon} from "@heroicons/react/solid";
 import { SearchIcon, BookOpenIcon } from "@heroicons/react/outline";
@@ -42,7 +41,6 @@ function Search( {results} ) {
                             <div className="pt-7 pr-5 space-x-1 hidden sm:flex flex-row">
                                 <CogIcon className="h-10 transition hidden lg:block rounded-full hover:bg-gray-100 text-gray-500 p-2" />
                                 <ViewGridIcon className="h-10 transition hidden md:block rounded-full hover:bg-gray-100 text-gray-500 p-2" />
-                                <Avatar url="https://boutiquephotographer.com/wp-content/uploads/2015/04/WORK_Headshot-Square.001_WEB.jpg" className="invisible justify-end" />
                             </div>
                         </div>
                         {/* Tabs below search bar */}
