@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Avatar from "../components/Avatar"
-import Footer from "../components/Footer.js"
+import Footer from "../components/Footer"
 import { ViewGridIcon, MicrophoneIcon } from "@heroicons/react/solid"
 import { SearchIcon } from "@heroicons/react/outline"
 import { useRef } from "react";
