@@ -1,9 +1,9 @@
-import Head from "next/head";
-import Image from 'next/image';
-import Searchresults from "../components/Searchresults";
-import { XIcon, CogIcon, ViewGridIcon, MicrophoneIcon, DotsVerticalIcon, NewspaperIcon, VideoCameraIcon, CameraIcon} from "@heroicons/react/solid";
-import { SearchIcon, BookOpenIcon } from "@heroicons/react/outline";
-import { API_KEY, CTX_KEY } from "../keys";
+import Head from "next/head"
+import Image from 'next/image'
+import Searchresults from "../components/Searchresults"
+import { XIcon, CogIcon, ViewGridIcon, MicrophoneIcon, DotsVerticalIcon, NewspaperIcon, VideoCameraIcon, CameraIcon} from "@heroicons/react/solid"
+import { SearchIcon, BookOpenIcon } from "@heroicons/react/outline"
+import { API_KEY, CTX_KEY } from "../keys"
 import { useRouter } from "next/router"
 
 
